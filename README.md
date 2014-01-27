@@ -77,7 +77,7 @@ BIT's version is:
 
 JSON is flexable / BIT is fast
 
-If you need to transport more complex objects data use JSON.
+If you need to transport more complex object-data use JSON.
 
 
 **How do I check if I need to JSON.parse or BIT.dec?**
