@@ -46,6 +46,7 @@ var BIT={
 
 Outputs string or int as Object value
 
+
 **//TODO:** support for Array (Array ends up as string)
 
 Can be used on client and in node.js (copy 'n' paste)
@@ -61,7 +62,7 @@ Objects fed into BIT.enc can only be two levels deep i.e:
    var main_object={'one':'level','other':'stuff','sub_object':{'second':'level','more':'stuff'}}
 ```
 
-the above example is 78 bytes long with JSON.stringify...
+The above example is 78 bytes long with JSON.stringify...
 
 BIT's version is:
 
@@ -71,7 +72,8 @@ BIT's version is:
 
 58 bytes long.
 
-When to use BIT?
+
+**When to use BIT?*
 
 JSON is flexable / BIT is fast
 
