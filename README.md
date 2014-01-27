@@ -73,7 +73,7 @@ BIT's version is:
 58 bytes long.
 
 
-**When to use BIT?*
+**When to use BIT?**
 
 JSON is flexable / BIT is fast
 
