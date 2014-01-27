@@ -39,7 +39,7 @@ var BIT={
 						}o[k]=oo;}
 				else{o[k]=(/^\d+$/.test(v))?parseInt(v):v;}//int?
 				}return o;}//object!
-		};//---------------BIT
+		};//BIT
 		
 
 ```
