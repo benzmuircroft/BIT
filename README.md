@@ -77,4 +77,14 @@ JSON is flexable / BIT is fast
 
 If you need to transport more complex object data (with ajax or websockets) use JSON.
 
+
+**How do I check wether I need to JSON.parse or BIT.dec?**
+
+```javascript
+   var _='«one^level¬other^stuff¬sub_object^«second°level~more°stuff';
+   _=(_.data.indexOf('«')===0)?BIT.dec(_.data.slice(1)):JSON.parse(_.data);
+```
+
+This checks for the BIT object («) character, removes it then BIT decodes it. else it JSON.parses it
+
 PS: don't forget to GZIP and cache
