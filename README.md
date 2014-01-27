@@ -71,4 +71,4 @@ BIT's version is:
 
 58 bytes long.
 
-If you need to transport with ajax or websockest more complex object data use JSON!
+If you need to transport more complex object data (with ajax or websockets) use JSON!
