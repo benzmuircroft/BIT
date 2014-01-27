@@ -80,7 +80,7 @@ JSON is flexable / BIT is fast
 If you need to transport more complex object data use JSON.
 
 
-**How do I check wether I need to JSON.parse or BIT.dec?**
+**How do I check if I need to JSON.parse or BIT.dec?**
 
 ```javascript
    var _='«one^level¬other^stuff¬sub_object^«second°level~more°stuff';
