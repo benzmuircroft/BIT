@@ -1,7 +1,7 @@
 BIT
 ===
 
-BIT - Double level object encoding/decoding (Ultra fast compared to JSON)
+BIT - Double level object encoding/decoding (Ultra fast vs JSON)
 
 
 ```javascript
