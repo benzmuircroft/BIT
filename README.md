@@ -82,7 +82,7 @@ If you need to transport more complex object data (with ajax or websockets) use 
 
 ```javascript
    var _='«one^level¬other^stuff¬sub_object^«second°level~more°stuff';
-   _=(_.data.indexOf('«')===0)?BIT.dec(_.data.slice(1)):JSON.parse(_.data);
+   _=(_.indexOf('«')===0)?BIT.dec(_.slice(1)):JSON.parse(_);
 ```
 
 This checks for the BIT object («) character, removes it then BIT decodes it. else it JSON.parses it
