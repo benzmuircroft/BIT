@@ -44,7 +44,7 @@ var BIT={
 
 ```
 
-Outputs string or int as Object value
+Outputs String or Int as Object value
 
 
 **//TODO:** support for Array (Array ends up as string)
@@ -53,8 +53,8 @@ Can be used on client and in node.js (copy 'n' paste)
 
 Has 2 functions:
 
- - BIT.enc({'key':'val'});
- - BIT.dec('string');
+ - BIT.enc({'key':'val'});	//outputs String
+ - BIT.dec('string');		//outputs Object
 
 Objects fed into BIT.enc can only be two levels deep i.e:
 
@@ -77,7 +77,7 @@ BIT's version is:
 
 JSON is flexable / BIT is fast
 
-If you need to transport more complex object data use JSON.
+If you need to transport more complex objects data use JSON.
 
 
 **How do I check if I need to JSON.parse or BIT.dec?**
