@@ -1,7 +1,7 @@
 BIT
 ===
 
-Double level object encoding/decoding (Ultra fast vs JSON)
+Double level object encoding/decoding (Ultra fast vs JSON) for use with WebSocets or ajax
 
 
 ```javascript
@@ -77,7 +77,7 @@ BIT's version is:
 
 JSON is flexable / BIT is fast
 
-If you need to transport more complex object data (with ajax or websockets) use JSON.
+If you need to transport more complex object data use JSON.
 
 
 **How do I check wether I need to JSON.parse or BIT.dec?**
