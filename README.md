@@ -46,7 +46,7 @@ var BIT={
 
 Outputs string or int
 
-//TODO: support for Array (Array ends up as string)
+**//TODO:** support for Array (Array ends up as string)
 
 Can be used on client and in node.js (copy 'n' paste)
 
