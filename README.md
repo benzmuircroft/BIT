@@ -87,6 +87,6 @@ If you need to transport more complex object data use JSON.
    _=(_.indexOf('«')===0)?BIT.dec(_.slice(1)):JSON.parse(_);
 ```
 
-This checks for the BIT object («) character, removes it then BIT decodes it. else it JSON.parses it
+This checks for the string for the BIT object (« character), removes it then BIT decodes it. else it JSON.parses it
 
 PS: don't forget to GZIP and cache
