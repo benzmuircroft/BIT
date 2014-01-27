@@ -44,7 +44,7 @@ var BIT={
 
 ```
 
-Outputs string or int
+Outputs string or int as Object value
 
 **//TODO:** support for Array (Array ends up as string)
 
