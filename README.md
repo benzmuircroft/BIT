@@ -71,4 +71,10 @@ BIT's version is:
 
 58 bytes long.
 
-If you need to transport more complex object data (with ajax or websockets) use JSON!
+When to use BIT?
+
+JSON is flexable / BIT is fast
+
+If you need to transport more complex object data (with ajax or websockets) use JSON.
+
+PS: don't forget to GZIP and cache
