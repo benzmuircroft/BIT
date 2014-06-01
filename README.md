@@ -90,3 +90,5 @@ If you need to transport more complex object-data use JSON.
 This checks for the string for the BIT object (« character), removes it then BIT decodes it. else it JSON.parses it
 
 PS: don't forget to GZIP and cache
+
+BIT.js Is a creation of http://computerstudio.eu used by default in REWIRE.io API
