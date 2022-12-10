@@ -91,4 +91,4 @@ This checks for the string for the BIT object (« character), removes it then BI
 
 PS: don't forget to GZIP and cache
 
-BIT.js Is a creation of http://computerstudio.eu used by default in REWIRE.io API
+BIT.js Is a creation of @benzmuircroft used by default in REWIRE.io API
